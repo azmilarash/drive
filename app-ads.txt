@@ -4,7 +4,7 @@ appodeal.com, 106045, DIRECT
 #BidMachine
 bidmachine.io, 106045, DIRECT
 #AdMob
-#google.com, pub-3409409214725722, DIRECT, f08c47fec0942fa0
+google.com, pub-3409409214725722, DIRECT, f08c47fec0942fa0
 #Facebook
 #Replace the Business ID below with your Facebook Business ID
 facebook.com, Business ID, RESELLER, c3e20eee3f780d68
