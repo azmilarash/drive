@@ -1,4 +1,4 @@
-#Last updated November 13th 2020
+#Last updated January 4th 2021
 #Appodeal
 appodeal.com, 106045, DIRECT
 #BidMachine
@@ -542,3 +542,19 @@ rubiconproject.com, 14558, RESELLER, 0bfd66d529a55807
 silvermob.com,419,RESELLER
 #OneTag
 onetag.com, 6410327ec8319f0, DIRECT
+#LoopMe
+loopme.com, 11347, RESELLER, 6c8d5f95897a5a3b
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
+penx.com, 540298543, RESELLER, 6a698e2ec38604c6
+#MarsMedia
+mars.media, 1010421, DIRECT, 8624339f102fb076
+advertising.com, 6814, RESELLER
+beachfront.com, 805, RESELLER, e2541279e8e2ca4d
+improvedigital.com, 1221, RESELLER
+onetag.com, 5e18052625cfd00, RESELLER
+appnexus.com, 12223, RESELLER, f5ab79cb980f11d1
+freewheel.tv, 1161393, RESELLER
+pubmatic.com, 160195, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160194, RESELLER, 5d62403b186f2ace
+freewheel.tv, 1162449, RESELLER
+gitberry.com, 3OJ, RESELLER
