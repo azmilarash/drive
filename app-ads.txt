@@ -1,4 +1,4 @@
-google.com, pub-7188592076082444, DIRECT, f08c47fec0942fa0
+google.com, pub-5784311004955543, DIRECT, f08c47fec0942fa0
 ironsrc.com,130210,DIRECT,79929e88b2ba73bc
 advertising.com, 8693, RESELLER
 aol.com, 25910, RESELLER
