@@ -5,8 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>AZ</b> GAMES</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
+      <a href="terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
+    </div>
+    
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+  </div>
+</div>
   
-  <style>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="privacy.html" onclick="w3_close()" class="w3-bar-item w3-button">Privacy Policy</a>
+  <a href="terms.html" onclick="w3_close()" class="w3-bar-item w3-button">Terms & Conditions</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="bg.jpg" alt="Picture" width="1500" height="600">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AZ</b></span> <span class="w3-hide-small w3-text-light-grey">GAMES</span></h1>
+  </div>
+</header>
+  
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+  
+  <!-- About Section -->
+  <div class="w3-container w3-padding-20" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Indie game studio founded in 2020, Malaysia-Based. We created fun action-physics mobile games for all ages.
+    </p>
+  </div>
+  
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-20" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Smashgrounds.io (Android)</div>
+        <a href="https://play.google.com/store/apps/details?id=com.mob.smashgrounds"><img src="header.png" alt="House" style="width:100%"></a>
+      </div>
+    </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Smashgrounds.io (IOS)</div>
+        <a href="https://play.google.com/store/apps/details?id=com.mob.smashgrounds"><img src="header24.png" alt="House" style="width:100%"></a>
+      </div>
+    </div>
+  </div>
+  
+      <!-- Contact Section -->
+  <div class="w3-container w3-padding-20" id="contact">
+    
+      <style>
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -126,75 +194,7 @@
   color: white;
 }
 </style>
-  
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button"><b>AZ</b> GAMES</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
-      <a href="terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
-    </div>
     
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-    
-  </div>
-</div>
-  
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
-  <a href="privacy.html" onclick="w3_close()" class="w3-bar-item w3-button">Privacy Policy</a>
-  <a href="terms.html" onclick="w3_close()" class="w3-bar-item w3-button">Terms & Conditions</a>
-</nav>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="bg.jpg" alt="Picture" width="1500" height="600">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AZ</b></span> <span class="w3-hide-small w3-text-light-grey">GAMES</span></h1>
-  </div>
-</header>
-  
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
-  
-  <!-- About Section -->
-  <div class="w3-container w3-padding-20" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Indie game studio founded in 2020, Malaysia-Based. We created fun action-physics mobile games for all ages.
-    </p>
-  </div>
-  
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-20" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Smashgrounds.io (Android)</div>
-        <a href="https://play.google.com/store/apps/details?id=com.mob.smashgrounds"><img src="header.png" alt="House" style="width:100%"></a>
-      </div>
-    </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Smashgrounds.io (IOS)</div>
-        <a href="https://play.google.com/store/apps/details?id=com.mob.smashgrounds"><img src="header24.png" alt="House" style="width:100%"></a>
-      </div>
-    </div>
-  </div>
-  
-      <!-- Contact Section -->
-  <div class="w3-container w3-padding-20" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Us</h3>
     <p>EMAIL : <a href="mailto:azmilarash07@gmail.com">azmilarash07@gmail.com</a><br><br>
        <a href="https://www.facebook.com/smashgroundsgame" class="fa fa-facebook"></a>
